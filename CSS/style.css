@@ -1,0 +1,161 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #16171D;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Navbar*/
+#menu{
+    display: flex;
+    max-width:1440px;
+    max-height: 108px;
+    margin: 25px auto;
+    
+}
+/*Logo*/
+#menu #logo{
+    padding: 0;
+    margin: 0;
+    
+}
+/*Hyperlinks*/
+
+#menu a{
+    color: #A7AEBF;
+    text-decoration: none;
+    font-size: 16px;
+    width: 263px;
+    height: 24px;
+    margin:20px 50px;
+}
+
+/*Input Login button*/
+#menu input{
+    border: 1px solid #F5C249;
+    padding: 12px 20px;
+    border-radius: 12px;
+    width: 700px;
+    height: 56px;
+    background-color: #F5C249;
+    color: #16171D;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*Position input*/
+#menu input{
+    margin-left: 480px;
+}
+
+
+/*Section Connect*/
+#container-connect{
+    width: 1440px;
+    height: 612px;
+    top: 108px;
+}
+
+/*Typography*/
+
+#container-connect h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 64px;
+}
+/*Position*/
+#container-connect h1{
+    margin: 5px 132px;
+    padding-top: 180px;
+}
+
+/*Position*/
+#image-container{
+    width: 527px;
+    height: 520px;
+    position: absolute;
+    bottom: 50px;
+    left: 960px;
+    
+}
+
+/*Typography*/
+#container-connect p{
+    color: #787A8D;
+    font-weight: 400;
+    size: 16px;
+    line-height: 24px;
+}
+/*Position*/
+#container-connect p{
+    margin: 10px 132px;
+    
+}
+/*HUD*/
+#container-connect input{
+    width: 203px;
+    height: 56px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    gap: 10px;
+    background-color:#F5C249;
+}
+/*Typography*/
+#container-connect input{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #16171D;
+}
+/*Position*/
+#container-connect input{
+    margin: 50px 132px;
+}
+
+/*Section Cards*/
+
+#features{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.cards {
+    width: 380px;
+    height: 304px;
+    border-radius: 24px;
+    border: 2px solid;
+    border-image: linear-gradient(180deg, #787A8D 0%, rgba(120, 122, 141, 0.29) 69.79%) 1;
+}
+
+
+
+.cards img{
+    padding: 20px 150px 50px;
+}
+
+
+.cards p{
+    color: #787A8D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards h3{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 600;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
