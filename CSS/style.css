@@ -38,10 +38,16 @@
     border-radius: 12px;
     width: 700px;
     height: 56px;
-    background-color: #F5C249;
+    background-color: #f7c95f;
     color: #16171D;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+#menu input:hover{
+    transition: 0.5;
+    background-color: #f3af12;
 }
 /*Position input*/
 #menu input{
@@ -100,7 +106,13 @@
     border-radius: 12px;
     gap: 10px;
     background-color:#F5C249;
+    cursor: pointer;
 }
+#container-connect input:hover{
+    transition: 0.5;
+    background-color: #f3af12;
+}
+
 /*Typography*/
 #container-connect input{
     font-weight: 600;
@@ -112,6 +124,8 @@
 #container-connect input{
     margin: 50px 132px;
 }
+
+
 
 /*Section Cards*/
 
@@ -170,5 +184,21 @@
     display: flex;
     margin: 0;
     padding: 0;
-    padding-top: 240px;
+    padding-top: 230px;
+}
+#image-form{
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
